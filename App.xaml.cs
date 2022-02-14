@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using MainStudyApp.Entity;
 
 namespace MainStudyApp
 {
@@ -22,6 +23,7 @@ namespace MainStudyApp
     /// </summary>
     sealed partial class App : Application
     {
+        public static Account accountUser;
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().

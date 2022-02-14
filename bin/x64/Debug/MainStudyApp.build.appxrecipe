@@ -76,8 +76,14 @@
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\AddSongPage.xbf">
+      <PackagePath>View\AddSongPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\HomePage.xbf">
       <PackagePath>View\HomePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\LastestSongsPage.xbf">
+      <PackagePath>View\LastestSongsPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\LoginPage.xbf">
       <PackagePath>View\LoginPage.xbf</PackagePath>

@@ -37,5 +37,15 @@ namespace MainStudyApp.View
         {
             contentFrame.Navigate(typeof(View.LoginPage));
         }
+
+        private void btnLastestSongsCLick(object sender, TappedRoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(View.LastestSongsPage));
+        }
+
+        private void btnAddSongClick(object sender, TappedRoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(View.AddSongPage));
+        }
     }
 }

@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-13T17:12:10.739</Modified>
+      <Modified>2022-02-14T18:57:21.973</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\MainStudyApp.exe">
       <PackagePath>entrypoint\MainStudyApp.exe</PackagePath>
-      <Modified>2022-02-13T17:12:09.628</Modified>
+      <Modified>2022-02-14T18:57:21.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -90,31 +90,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\MainStudyApp.xr.xml">
       <PackagePath>MainStudyApp.xr.xml</PackagePath>
-      <Modified>2022-02-13T15:35:13.030</Modified>
+      <Modified>2022-02-14T18:52:44.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-13T17:12:09.518</Modified>
+      <Modified>2022-02-14T18:57:21.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-13T17:12:09.518</Modified>
+      <Modified>2022-02-14T18:57:21.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\AddSongPage.xbf">
+      <PackagePath>View\AddSongPage.xbf</PackagePath>
+      <Modified>2022-02-14T18:57:21.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\HomePage.xbf">
       <PackagePath>View\HomePage.xbf</PackagePath>
-      <Modified>2022-02-13T17:12:09.519</Modified>
+      <Modified>2022-02-14T18:57:21.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\LastestSongsPage.xbf">
+      <PackagePath>View\LastestSongsPage.xbf</PackagePath>
+      <Modified>2022-02-14T18:57:21.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\LoginPage.xbf">
       <PackagePath>View\LoginPage.xbf</PackagePath>
-      <Modified>2022-02-13T17:12:09.519</Modified>
+      <Modified>2022-02-14T18:57:21.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\RegisterPage.xbf">
       <PackagePath>View\RegisterPage.xbf</PackagePath>
-      <Modified>2022-02-13T17:12:09.518</Modified>
+      <Modified>2022-02-14T18:57:21.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\View\WelcomePage.xbf">
       <PackagePath>View\WelcomePage.xbf</PackagePath>
-      <Modified>2022-02-13T17:12:09.519</Modified>
+      <Modified>2022-02-14T18:57:21.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,11 +130,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-13T17:12:10.210</Modified>
+      <Modified>2022-02-14T18:52:45.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\06. Universal App\MainStudyApp\bin\x64\Debug\Core\MainStudyApp.exe">
       <PackagePath>MainStudyApp.exe</PackagePath>
-      <Modified>2022-02-13T17:12:10.730</Modified>
+      <Modified>2022-02-14T18:57:21.970</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

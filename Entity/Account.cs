@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainStudyApp.Entity
 {
-    class Account
+    public class Account
     {
         public int id { get; set; }
         public string firstName { get; set; }

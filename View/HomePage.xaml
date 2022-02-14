@@ -12,8 +12,8 @@
         <NavigationView.MenuItems>
             <NavigationViewItem Icon="Repair" Content="Register" Tag="btnRegister" x:Name="btnRegister" Tapped="btnRegister_Tapped"/>
             <NavigationViewItem Icon="Keyboard" Content="Login" Tag="" Tapped="btnLogin_Tapped" />
-            <NavigationViewItem Icon="Repair" Content="Add Song" Tag="" />
-            <NavigationViewItem Icon="Repair" Content="View All" Tag="" />
+            <NavigationViewItem Icon="Repair" Content="Add Song" Tag="" Tapped="btnAddSongClick"/>
+            <NavigationViewItem Icon="Repair" Content="Lastest Songs" Tag="" Tapped="btnLastestSongsCLick"/>
         </NavigationView.MenuItems>
         <Frame x:Name="contentFrame"/>
     </NavigationView>

@@ -9,11 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
 using MainStudyApp.Config;
+using Windows.Storage;
 
 namespace MainStudyApp.Service
 {
     class AccountService
     {
+        public static string tokenUserFile = "LoginInformation.txt";
         public static async void saveAccount(Account account)
         {            
             var apiUrl = APIConfig.domain + APIConfig.URL_Register;
@@ -52,7 +54,7 @@ namespace MainStudyApp.Service
             };
         }
 
-        public static async Task<Credential> loginAsync(LoginInformation loginInformation) {
+        public async Task<Credential> loginAsync(LoginInformation loginInformation) {
             var apiUrl = APIConfig.domain + APIConfig.URL_Login;
             var jsonString = JsonConvert.SerializeObject(loginInformation);
             using (HttpClient httpClient = new HttpClient())
@@ -70,6 +72,7 @@ namespace MainStudyApp.Service
                     dialog.Content = "Login success !!!";
                     dialog.CloseButtonText = "Close";
                     await dialog.ShowAsync();
+                    SaveToken(content);
                     return returnCre;
                 }
                  else {
@@ -80,6 +83,53 @@ namespace MainStudyApp.Service
                     await dialog.ShowAsync();
                     return null;
                  }  
+            }
+        }
+
+        //save token
+        private async void SaveToken(string content)
+        {
+            StorageFolder storageFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile = await storageFolder.CreateFileAsync(tokenUserFile, CreationCollisionOption.ReplaceExisting);
+            await FileIO.WriteTextAsync(sampleFile, content);
+        }
+        //load token
+        public async Task<Credential> LoadToken()
+        {
+            try
+            {
+                StorageFolder storageFolder = ApplicationData.Current.LocalFolder;
+                StorageFile sampleFile = await storageFolder.GetFileAsync(tokenUserFile);
+                string JsonReaderResuilt = await FileIO.ReadTextAsync(sampleFile);
+                Credential credential = JsonConvert.DeserializeObject<Credential>(JsonReaderResuilt);
+                return credential;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+        //get account infomation
+        public async Task<Account> GetAccountInformation(string token)
+        {
+            using (HttpClient httpClient = new HttpClient())
+            {
+                var apiUrl = APIConfig.domain + APIConfig.URL_AccountInformation;
+                httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
+                var result = await httpClient.GetAsync(apiUrl);
+                
+                if (result.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    var content = await result.Content.ReadAsStringAsync();
+                    Account account = JsonConvert.DeserializeObject<Account>(content);
+                    App.accountUser = account;
+                    return account;
+                }
+                else
+                {
+                    // bad case
+                    return null;
+                }
             }
         }
     }

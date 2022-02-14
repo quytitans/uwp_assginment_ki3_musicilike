@@ -25,6 +25,7 @@ namespace MainStudyApp.View
     /// </summary>
     public sealed partial class LoginPage : Page
     {
+        AccountService accountService = new AccountService();
         public LoginPage()
         {
             this.InitializeComponent();
@@ -61,7 +62,7 @@ namespace MainStudyApp.View
                     email = inputEmail.Text,
                     password = inputPassword.Password
                 };
-                AccountService.loginAsync(newLogin);
+                accountService.loginAsync(newLogin);
             }
         }
 
