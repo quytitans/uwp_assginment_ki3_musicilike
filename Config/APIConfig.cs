@@ -13,5 +13,8 @@ namespace MainStudyApp.Config
         public static string URL_Login = "/api/v1/accounts/authentication";
         public static string URL_AccountInformation = "/api/v1/accounts";
         public static string URL_LastestSongs = "/api/v1/songs";
+        public static string URL_MySongs = "/api/v1/songs/mine";
+        public static string URL_AddPublicSong = "/api/v1/songs";
+        public static string URL_AddMySong = "/api/v1/songs/mine";
     }
 }

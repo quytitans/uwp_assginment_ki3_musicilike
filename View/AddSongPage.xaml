@@ -44,7 +44,7 @@
             <TextBox Style="{StaticResource elementRegisterPage}" Header="Link" Grid.Column="0" Grid.Row="4" x:Name="inputLink"/>
             <TextBlock x:Name="msgLink" Text="" Grid.Column="1" Grid.Row="4" Margin="0 30 0 0" Foreground="Red"/>
             <StackPanel Width="220" HorizontalAlignment="Left" Margin="0 20 0 0"  Orientation="Horizontal" Grid.Column="0" Grid.Row="5">
-                <Button Content="Submit" Margin="0 0 40 0" />
+                <Button Content="Submit" Margin="0 0 40 0" Click="btnSubmit_Click" />
                 <Button Content="Reset Form"  Margin="0 0 40 0" />
             </StackPanel>
         </Grid>

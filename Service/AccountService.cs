@@ -94,7 +94,7 @@ namespace MainStudyApp.Service
             await FileIO.WriteTextAsync(sampleFile, content);
         }
         //load token
-        public async Task<Credential> LoadToken()
+        public static async Task<Credential> LoadToken()
         {
             try
             {

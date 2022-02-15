@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ohRGqIU1WSFRAZC6LvinxuG7xyaR7ngDgWDYo/FP+vbrhKJyN3F5sOZ9fcdcwn9L7XRMl3cbluIjurpPS+L04g==",
+  "dgSpecHash": "FqqToaGLTUYBBtzh1qTaUNMGXYcmXOkUbdjJFqWe54qeb9S/OXWvIa3z/Ar7BcEGTB+u7Ud2QkHVN8ywNeJspw==",
   "success": true,
-  "projectFilePath": "D:\\06. Universal App\\MainStudyApp\\MainStudyApp.csproj",
+  "projectFilePath": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

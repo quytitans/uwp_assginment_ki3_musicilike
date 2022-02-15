@@ -8,12 +8,13 @@ namespace MainStudyApp.Entity
 {
     class Credential
     {
-        public string token { get; set; }
-        public string secretToken { get; set; }
-        public double userId { get; set; }
-        public long createdTimeMLS { get; set; }
-        public long expiredTimeMLS { get; set; }
-        public int status { get; set; }
+        public string access_token { get; set; }
+        public string refresh_token { get; set; }
+        public string account_id { get; set; }
+        public string expire_time { get; set; }
+        public string created_at { get; set; }
+        public string updated_at { get; set; }
+        public string status { get; set; }
 
     }
 }

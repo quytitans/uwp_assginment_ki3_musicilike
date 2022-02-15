@@ -10,10 +10,12 @@
 
     <NavigationView>
         <NavigationView.MenuItems>
-            <NavigationViewItem Icon="Repair" Content="Register" Tag="btnRegister" x:Name="btnRegister" Tapped="btnRegister_Tapped"/>
-            <NavigationViewItem Icon="Keyboard" Content="Login" Tag="" Tapped="btnLogin_Tapped" />
-            <NavigationViewItem Icon="Repair" Content="Add Song" Tag="" Tapped="btnAddSongClick"/>
-            <NavigationViewItem Icon="Repair" Content="Lastest Songs" Tag="" Tapped="btnLastestSongsCLick"/>
+            <NavigationViewItem Icon="Permissions" Content="Register" Tag="btnRegister" x:Name="btnRegister" Tapped="btnRegister_Tapped"/>
+            <NavigationViewItem Icon="People" Content="Login" Tag="" Tapped="btnLogin_Tapped" />
+            <NavigationViewItem Icon="Add" Content="Add Song" Tag="" Tapped="btnAddSongClick"/>
+            <NavigationViewItem Icon="Add" Content="Add My Song" Tag="" />
+            <NavigationViewItem Icon="MusicInfo" Content="Lastest Songs" Tag="" Tapped="btnLastestSongsCLick"/>
+            <NavigationViewItem Icon="MusicInfo" Content="My Songs" Tag=""/>
         </NavigationView.MenuItems>
         <Frame x:Name="contentFrame"/>
     </NavigationView>

@@ -8265,11 +8265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\06. Universal App\\MainStudyApp\\MainStudyApp.csproj",
+      "projectUniqueName": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
       "projectName": "MainStudyApp",
-      "projectPath": "D:\\06. Universal App\\MainStudyApp\\MainStudyApp.csproj",
+      "projectPath": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
       "packagesPath": "C:\\Users\\quana\\.nuget\\packages\\",
-      "outputPath": "D:\\06. Universal App\\MainStudyApp\\obj\\",
+      "outputPath": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8286,8 +8286,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.org": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "uap10.0.17763": {
