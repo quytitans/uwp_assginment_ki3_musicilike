@@ -67,20 +67,20 @@ namespace MainStudyApp.Service
                 Credential returnCre = JsonConvert.DeserializeObject<Credential>(content);
                
                 Debug.WriteLine("Done !!!");
-                    ContentDialog dialog = new ContentDialog();
-                    dialog.Title = "Login";
-                    dialog.Content = "Login success !!!";
-                    dialog.CloseButtonText = "Close";
-                    await dialog.ShowAsync();
+                    //ContentDialog dialog = new ContentDialog();
+                    //dialog.Title = "Login";
+                    //dialog.Content = "Login success !!!";
+                    //dialog.CloseButtonText = "Close";
+                    //await dialog.ShowAsync();
                     SaveToken(content);
                     return returnCre;
                 }
                  else {
-                    ContentDialog dialog = new ContentDialog();
-                    dialog.Title = "Login";
-                    dialog.Content = "Login faile please try again";
-                    dialog.CloseButtonText = "Close";
-                    await dialog.ShowAsync();
+                    //ContentDialog dialog = new ContentDialog();
+                    //dialog.Title = "Login";
+                    //dialog.Content = "Login faile please try again";
+                    //dialog.CloseButtonText = "Close";
+                    //await dialog.ShowAsync();
                     return null;
                  }  
             }

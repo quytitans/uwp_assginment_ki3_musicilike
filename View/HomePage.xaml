@@ -9,9 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <NavigationView>
-        <NavigationView.MenuItems>
-            <NavigationViewItem Icon="Permissions" Content="Register" Tag="btnRegister" x:Name="btnRegister" Tapped="btnRegister_Tapped"/>
-            <NavigationViewItem Icon="People" Content="Login" Tag="" Tapped="btnLogin_Tapped" />
+        <NavigationView.MenuItems>            
             <NavigationViewItem Icon="Add" Content="Add Song" Tag="" Tapped="btnAddSongClick"/>
             <NavigationViewItem Icon="Add" Content="Add My Song" Tag="" />
             <NavigationViewItem Icon="MusicInfo" Content="Lastest Songs" Tag="" Tapped="btnLastestSongsCLick"/>

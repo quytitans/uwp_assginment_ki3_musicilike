@@ -10,10 +10,12 @@
 
     <NavigationView>
         <NavigationView.MenuItems>
-            <NavigationViewItem x:ConnectionId='2' Icon="Repair" Content="Register" Tag="btnRegister" x:Name="btnRegister"                            />
-            <NavigationViewItem x:ConnectionId='3' Icon="Keyboard" Content="Login" Tag=""                          />
-            <NavigationViewItem x:ConnectionId='4' Icon="Repair" Content="Add Song" Tag=""                         />
-            <NavigationViewItem x:ConnectionId='5' Icon="Repair" Content="Lastest Songs" Tag=""                              />
+            <NavigationViewItem x:ConnectionId='2' Icon="Permissions" Content="Register" Tag="btnRegister" x:Name="btnRegister"                            />
+            <NavigationViewItem x:ConnectionId='3' Icon="People" Content="Login" Tag=""                          />
+            <NavigationViewItem x:ConnectionId='4' Icon="Add" Content="Add Song" Tag=""                         />
+            <NavigationViewItem Icon="Add" Content="Add My Song" Tag="" />
+            <NavigationViewItem x:ConnectionId='5' Icon="MusicInfo" Content="Lastest Songs" Tag=""                              />
+            <NavigationViewItem Icon="MusicInfo" Content="My Songs" Tag=""/>
         </NavigationView.MenuItems>
         <Frame x:ConnectionId='6' x:Name="contentFrame"/>
     </NavigationView>

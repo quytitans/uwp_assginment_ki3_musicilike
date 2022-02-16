@@ -28,17 +28,47 @@
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.exe">
       <PackagePath>entrypoint\MainStudyApp.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\cloudinarydotnet\1.17.0\lib\netstandard2.0\CloudinaryDotNet.dll">
+      <PackagePath>CloudinaryDotNet.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.aspnetcore.html.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Html.Abstractions.dll">
+      <PackagePath>Microsoft.AspNetCore.Html.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.aspnetcore.http.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll">
+      <PackagePath>Microsoft.AspNetCore.Http.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.aspnetcore.http.features\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll">
+      <PackagePath>Microsoft.AspNetCore.Http.Features.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.extensions.options\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.extensions.primitives\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.extensions.webencoders\5.0.3\lib\netstandard2.0\Microsoft.Extensions.WebEncoders.dll">
+      <PackagePath>Microsoft.Extensions.WebEncoders.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\system.runtime.compilerservices.unsafe\5.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\system.text.encodings.web\5.0.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\background 2.png">
+      <PackagePath>Assets\IMGnvq\background 2.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -67,6 +97,18 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\background-anime-nhan-vat-de-thuong.jpg">
+      <PackagePath>Assets\IMGnvq\background-anime-nhan-vat-de-thuong.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\High_resolution_wallpaper_background_ID_77700181895.jpg">
+      <PackagePath>Assets\IMGnvq\High_resolution_wallpaper_background_ID_77700181895.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\main_background1.jpg">
+      <PackagePath>Assets\IMGnvq\main_background1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.xr.xml">
       <PackagePath>MainStudyApp.xr.xml</PackagePath>
     </AppxPackagedFile>
@@ -87,6 +129,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LoginPage.xbf">
       <PackagePath>View\LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\NewLoginPage.xbf">
+      <PackagePath>View\NewLoginPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\RegisterPage.xbf">
       <PackagePath>View\RegisterPage.xbf</PackagePath>

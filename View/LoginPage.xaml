@@ -9,6 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1180">
 
     <Grid Margin="20,20,0,20">
+        <Grid.Background>
+            <ImageBrush  Stretch="Fill" ImageSource="../Assets/IMGnvq/background-anime-nhan-vat-de-thuong.jpg"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>

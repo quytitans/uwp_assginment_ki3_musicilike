@@ -1,4 +1,8 @@
 WinMetadata\Windows.winmd
+Assets\IMGnvq\background 2.png
+Assets\IMGnvq\background-anime-nhan-vat-de-thuong.jpg
+Assets\IMGnvq\High_resolution_wallpaper_background_ID_77700181895.jpg
+Assets\IMGnvq\main_background1.jpg
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -13,6 +17,7 @@ View\AddSongPage.xbf
 View\HomePage.xbf
 View\LastestSongsPage.xbf
 View\LoginPage.xbf
+View\NewLoginPage.xbf
 View\RegisterPage.xbf
 View\WelcomePage.xbf
 Properties\Default.rd.xml
