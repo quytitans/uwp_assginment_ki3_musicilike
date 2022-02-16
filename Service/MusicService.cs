@@ -25,21 +25,11 @@ namespace MainStudyApp.Service
             HttpContent contentToSend = new StringContent(jsonString, Encoding.UTF8, "applicaion/json");
             var result = await httpClient.PostAsync(apiUrl, contentToSend);
             if (result.StatusCode == System.Net.HttpStatusCode.Created)
-            {
-                ContentDialog dialog = new ContentDialog();
-                dialog.Title = "Create new song";
-                dialog.Content = "Create new song success";
-                dialog.CloseButtonText = "Close";
-                await dialog.ShowAsync();
+            {                
                 return true;
             }
             else
-            {
-                ContentDialog dialog = new ContentDialog();
-                dialog.Title = "Create new song";
-                dialog.Content = "Action faile please try again !!!";
-                dialog.CloseButtonText = "Close";
-                await dialog.ShowAsync();
+            {                
                 return false;
             }
         }
@@ -63,6 +53,12 @@ namespace MainStudyApp.Service
             }
             return listLastestSongs;
         }
+
+        internal static Task<List<Song>> CreatePublicSongAsync()
+        {
+            throw new NotImplementedException();
+        }
+
         //add my song
         public static async Task<bool> CreateMySongAsync(Song song)
         {

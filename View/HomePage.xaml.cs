@@ -28,7 +28,8 @@ namespace MainStudyApp.View
         public HomePage()
         {
             this.InitializeComponent();
-            contentFrame.Navigate(typeof(View.WelcomePage));
+            contentFrame.Navigate(typeof(View.LastestSongsPage));
+            //UserDisplay.Content = App.accountUser.firstName;
         }        
 
         private void btnLastestSongsCLick(object sender, TappedRoutedEventArgs e)
@@ -45,6 +46,11 @@ namespace MainStudyApp.View
         {
             AccountService.LogoutAsync();
             rootFrame.Navigate(typeof(View.NewLoginPage));
+        }
+
+        private void MySongs_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(View.MySongPage));
         }
     }
 }

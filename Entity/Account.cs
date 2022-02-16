@@ -21,6 +21,11 @@ namespace MainStudyApp.Entity
         public string createdAt { get; set; }
         public string updatedAt { get; set; }
         public string introduction { get; set; }
-        public int status { get; set; }    
+        public int status { get; set; }
+
+        public static implicit operator Account(Task<Account> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -17,62 +17,67 @@
     </Page.Resources>
     <Grid>
         <Grid.Background>
-                <ImageBrush  Stretch="Fill" ImageSource="../Assets/IMGnvq/background-anime-nhan-vat-de-thuong.jpg"/>
-            </Grid.Background>
-        
+            <ImageBrush  Stretch="Fill" ImageSource="../Assets/IMGnvq/background-anime-nhan-vat-de-thuong.jpg"/>
+        </Grid.Background>
+
         <StackPanel Orientation="Vertical" Margin="0,0,10,0">
+
+            <Grid Width="500" HorizontalAlignment="Left" Margin="120 20 0 0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Style="{StaticResource elementRegisterPage}" Header="First Name"  Grid.Column="0" Grid.Row="0" x:Name="firstName"/>
+                <TextBlock x:Name="msgFirstName" Text="" Grid.Column="1" Grid.Row="0" Margin="0 30 0 0" Foreground="Red"/>
+                <TextBox Style="{StaticResource elementRegisterPage}" Header="Last Name"  Grid.Column="0" Grid.Row="1" x:Name="lastName"/>
+                <TextBlock x:Name="msgLastName" Text="" Grid.Column="1" Grid.Row="1" Margin="0 30 0 0" Foreground="Red"/>
+                <PasswordBox  Width="220" Header="Password"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="2" Margin="0 0 20 0" x:Name="password"/>
+                <TextBlock x:Name="msgPassword" Text="" Grid.Column="1" Grid.Row="2" Margin="0 30 0 0" Foreground="Red"/>
+                <PasswordBox Width="220" Header="Confirm Password"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="3" Margin="0 0 20 0" x:Name="confirmPassword"/>
+                <TextBlock x:Name="msgConfirmPassword" Text="" Grid.Column="1" Grid.Row="3" Margin="0 30 0 0" Foreground="Red"/>
+                <TextBox Style="{StaticResource elementRegisterPage}" Header="Address" Grid.Column="0" Grid.Row="4" x:Name="address"/>
+                <TextBlock x:Name="msgAddress" Text="" Grid.Column="1" Grid.Row="4" Margin="0 30 0 0" Foreground="Red"/>
+                <TextBox Style="{StaticResource elementRegisterPage}" Header="Phone Number" Grid.Column="0" Grid.Row="5" x:Name="phone"/>
+                <TextBlock x:Name="msgPhone" Text="" Grid.Column="1" Grid.Row="5" Margin="0 30 0 0" Foreground="Red"/>
+                <TextBox Style="{StaticResource elementRegisterPage}" Header="Avatar" Grid.Column="0" Grid.Row="6" x:Name="avatar"/>
+                <TextBlock x:Name="msgAvatar" Text="" Grid.Column="1" Grid.Row="6" Margin="0 30 0 0" Foreground="Red"/>
+                <StackPanel Grid.Column="0" Grid.Row="7" Orientation="Horizontal" Spacing="0">
+                    <RadioButton GroupName="gender" Content="Male" VerticalAlignment="Center" Margin="0 25 0 0" Tag="male" Tapped="RadioButton_Tapped"/>
+                    <RadioButton GroupName="gender" Content="Female" VerticalAlignment="Center" Margin="0 25 0 0" Tag="female" Tapped="RadioButton_Tapped"/>
+                </StackPanel>
+                <TextBlock x:Name="msgGender" Text="" Grid.Column="1" Grid.Row="7" Margin="0 30 0 0" Foreground="Red"/>
+                <TextBox Style="{StaticResource elementRegisterPage}" Header="Email"  Grid.Column="0" Grid.Row="8" x:Name="email"/>
+                <TextBlock x:Name="msgEmail" Text="" Grid.Column="1" Grid.Row="8" Margin="0 30 0 0" Foreground="Red"/>
+                <CalendarDatePicker x:Name="birthDayPicker" DateChanged="CalendarDatePicker_DateChanged" Width="220" Header="BirthDay"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="9" Margin="0 0 20 0" Tag="birthday"/>
+                <TextBlock x:Name="msgBirthDay" Text="" Grid.Column="1" Grid.Row="9" Margin="0 30 0 0" Foreground="Red"/>
+                <TextBox Width="220" HorizontalAlignment="Left" Margin="0 0 0 0"  Header="Introduction" Grid.Column="0" Grid.Row="10" x:Name="introduction"/>
+                <StackPanel Width="220" HorizontalAlignment="Left" Margin="0 20 0 0"  Orientation="Horizontal" Grid.Column="0" Grid.Row="11">
+                    <Button Content="Submit" Margin="0 0 40 0" Click="SubmitBtnCLick"/>
+                    <Button Content="Reset Form"  Margin="0 0 40 0" Click="Reset_Click"/>
+                </StackPanel>
+                <TextBlock Tapped="Goback_Tapped" x:Name="goback" Text="Go back to login page" Grid.Column="0" Grid.Row="12" Margin="0 30 0 0" Foreground="Blue"/>
+                <Image Height="100" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="13" Margin="0 30 0 0" Source="/Assets/IMGnvq/LOGOMainHope.png" />
+            </Grid>
+        </StackPanel>
         
-        <Grid Width="500" HorizontalAlignment="Center" Margin="200 200 0 0">
-            
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <TextBox Style="{StaticResource elementRegisterPage}" Header="First Name"  Grid.Column="0" Grid.Row="0" x:Name="firstName"/>
-            <TextBlock x:Name="msgFirstName" Text="" Grid.Column="1" Grid.Row="0" Margin="0 30 0 0" Foreground="Red"/>
-            <TextBox Style="{StaticResource elementRegisterPage}" Header="Last Name"  Grid.Column="0" Grid.Row="1" x:Name="lastName"/>
-            <TextBlock x:Name="msgLastName" Text="" Grid.Column="1" Grid.Row="1" Margin="0 30 0 0" Foreground="Red"/>
-            <PasswordBox  Width="220" Header="Password"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="2" Margin="0 0 20 0" x:Name="password"/>
-            <TextBlock x:Name="msgPassword" Text="" Grid.Column="1" Grid.Row="2" Margin="0 30 0 0" Foreground="Red"/>
-            <PasswordBox Width="220" Header="Confirm Password"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="3" Margin="0 0 20 0" x:Name="confirmPassword"/>
-            <TextBlock x:Name="msgConfirmPassword" Text="" Grid.Column="1" Grid.Row="3" Margin="0 30 0 0" Foreground="Red"/>
-            <TextBox Style="{StaticResource elementRegisterPage}" Header="Address" Grid.Column="0" Grid.Row="4" x:Name="address"/>
-            <TextBlock x:Name="msgAddress" Text="" Grid.Column="1" Grid.Row="4" Margin="0 30 0 0" Foreground="Red"/>
-            <TextBox Style="{StaticResource elementRegisterPage}" Header="Phone Number" Grid.Column="0" Grid.Row="5" x:Name="phone"/>
-            <TextBlock x:Name="msgPhone" Text="" Grid.Column="1" Grid.Row="5" Margin="0 30 0 0" Foreground="Red"/>
-            <TextBox Style="{StaticResource elementRegisterPage}" Header="Avatar" Grid.Column="0" Grid.Row="6" x:Name="avatar"/>
-            <TextBlock x:Name="msgAvatar" Text="" Grid.Column="1" Grid.Row="6" Margin="0 30 0 0" Foreground="Red"/>
-            <StackPanel Grid.Column="0" Grid.Row="7" Orientation="Horizontal" Spacing="0">
-                <RadioButton GroupName="gender" Content="Male" VerticalAlignment="Center" Margin="0 25 0 0" Tag="male" Tapped="RadioButton_Tapped"/>
-                <RadioButton GroupName="gender" Content="Female" VerticalAlignment="Center" Margin="0 25 0 0" Tag="female" Tapped="RadioButton_Tapped"/>
-            </StackPanel>
-            <TextBlock x:Name="msgGender" Text="" Grid.Column="1" Grid.Row="7" Margin="0 30 0 0" Foreground="Red"/>
-            <TextBox Style="{StaticResource elementRegisterPage}" Header="Email"  Grid.Column="0" Grid.Row="8" x:Name="email"/>
-            <TextBlock x:Name="msgEmail" Text="" Grid.Column="1" Grid.Row="8" Margin="0 30 0 0" Foreground="Red"/>
-            <CalendarDatePicker x:Name="birthDayPicker" DateChanged="CalendarDatePicker_DateChanged" Width="220" Header="BirthDay"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="9" Margin="0 0 20 0" Tag="birthday"/>
-            <TextBlock x:Name="msgBirthDay" Text="" Grid.Column="1" Grid.Row="9" Margin="0 30 0 0" Foreground="Red"/>
-            <TextBox Width="220" HorizontalAlignment="Left" Margin="0 0 0 0"  Header="Introduction" Grid.Column="0" Grid.Row="10" x:Name="introduction"/>
-            <StackPanel Width="220" HorizontalAlignment="Left" Margin="0 20 0 0"  Orientation="Horizontal" Grid.Column="0" Grid.Row="11">
-                <Button Content="Submit" Margin="0 0 40 0" Click="SubmitBtnCLick"/>
-                <Button Content="Reset Form"  Margin="0 0 40 0" Click="Reset_Click"/>
-            </StackPanel>
-        </Grid>
-    </StackPanel>
     </Grid>
-    
+
 </Page>

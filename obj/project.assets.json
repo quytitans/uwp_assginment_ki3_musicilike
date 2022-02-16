@@ -9559,11 +9559,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
+      "projectUniqueName": "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
       "projectName": "MainStudyApp",
-      "projectPath": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
+      "projectPath": "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
       "packagesPath": "C:\\Users\\quana\\.nuget\\packages\\",
-      "outputPath": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\obj\\",
+      "outputPath": "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

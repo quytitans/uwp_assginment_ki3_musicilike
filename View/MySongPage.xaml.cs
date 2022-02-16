@@ -3,10 +3,10 @@ using MainStudyApp.Service;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Media.Core;
@@ -23,13 +23,16 @@ using Windows.UI.Xaml.Navigation;
 
 namespace MainStudyApp.View
 {
-    public sealed partial class LastestSongsPage : Page
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class MySongPage : Page
     {
         int indexSong;
         MediaPlaybackList _mediaPlaybackList;
         MusicService musicService = new MusicService();
         public List<Song> listSongs { get; set; }
-        public LastestSongsPage()
+        public MySongPage()
         {
             this.InitializeComponent();
             this.Loaded += ListSongAllPage_Loaded;
@@ -37,9 +40,9 @@ namespace MainStudyApp.View
 
         private async void ListSongAllPage_Loaded(object sender, RoutedEventArgs e)
         {
-            List<Song> listSongCheck = await musicService.GetLastestSongsAsync();
+            List<Song> listSongCheck = await musicService.GetListSongMineAsync();
 
-            _mediaPlaybackList = new MediaPlaybackList();            
+            _mediaPlaybackList = new MediaPlaybackList();
             for (int i = 0; i < listSongCheck.Count; i++)
             {
                 try
@@ -48,13 +51,13 @@ namespace MainStudyApp.View
                     _mediaPlaybackList.Items.Add(mediaPlaybackItem);
                 }
                 catch (Exception ex)
-                {                   
+                {
                     var mediaPlaybackItemNull = new MediaPlaybackItem(MediaSource.CreateFromUri(new Uri("about:blank")));
                     _mediaPlaybackList.Items.Add(mediaPlaybackItemNull);
                 }
-            }            
+            }
             ObservableCollection<Song> observableSongs = new ObservableCollection<Song>(listSongCheck);
-            MyListSong.ItemsSource = observableSongs;           
+            MyListSong.ItemsSource = observableSongs;
 
             _mediaPlaybackList.CurrentItemChanged += MediaPlaybackList_CurrentItemChanged;
 
@@ -65,18 +68,18 @@ namespace MainStudyApp.View
 
         private async void MediaPlaybackList_CurrentItemChanged(MediaPlaybackList sender, CurrentMediaPlaybackItemChangedEventArgs args)
         {
-            indexSong = (int)sender.CurrentItemIndex;            
-            await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>            {
-                MyListSong.SelectedIndex = indexSong; 
+            indexSong = (int)sender.CurrentItemIndex;
+            await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () => {
+                MyListSong.SelectedIndex = indexSong;
             });
         }
 
         private void MyListSong_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            indexSong = MyListSong.SelectedIndex;             
+            indexSong = MyListSong.SelectedIndex;
             if (indexSong != -1)
             {
-                _mediaPlaybackList.MoveTo(Convert.ToUInt32(indexSong)); 
+                _mediaPlaybackList.MoveTo(Convert.ToUInt32(indexSong));
             }
         }
     }

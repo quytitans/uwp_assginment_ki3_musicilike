@@ -11,17 +11,17 @@
 
     <Grid Margin="0,0,10,0">
         <StackPanel Width="450" HorizontalAlignment="Center" Margin="0 250 0 0" Spacing="15">
-            <TextBlock HorizontalAlignment="Center" FontSize="70" Text="LOGO HERE" TextWrapping="Wrap"/>
-            <TextBlock HorizontalAlignment="Center" Text="LOGIN" TextWrapping="Wrap"/>
+            <TextBlock HorizontalAlignment="Center" FontSize="40" Text="LOGIN" TextWrapping="Wrap"/>            
             <TextBox  x:Name="inputEmail" Header="Email/Account" HorizontalAlignment="Center" Width="266"/>
             <TextBlock x:Name="msgEmail" Foreground="Red" FontStyle="Italic"  HorizontalAlignment="Center"  Text="" TextWrapping="Wrap"/>
             <PasswordBox x:Name="inputPassword"  Header="Password"  HorizontalAlignment="Center" Width="266"/>
             <TextBlock x:Name="msgPassword" Foreground="Red" FontStyle="Italic" HorizontalAlignment="Center"  Text="" TextWrapping="Wrap"/>
             <Button Content="Login" Width="80" Click="ButtonSubmit_Click" HorizontalAlignment="Center"/>
-            <TextBlock  x:Name="registerNavigation" Foreground="Blue" FontStyle="Italic"  HorizontalAlignment="Center"  Text="Register new account ?" TextWrapping="Wrap"/>
+            <TextBlock Tapped="registerNavigation_Tapped"  x:Name="registerNavigation" Foreground="Blue" FontStyle="Italic"  HorizontalAlignment="Center"  Text="Register new account ?" TextWrapping="Wrap"/>
         </StackPanel>
+        <Image Source="../Assets/IMGnvq/LOGOMainHope.png"  HorizontalAlignment="Left" Height="300" Margin="47,63,0,0" VerticalAlignment="Top" Width="331"/>
         <Grid.Background>
             <ImageBrush  Stretch="Fill" ImageSource="../Assets/IMGnvq/background-anime-nhan-vat-de-thuong.jpg"/>
-        </Grid.Background>        
+        </Grid.Background>
     </Grid>
 </Page>

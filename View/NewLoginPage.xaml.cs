@@ -25,6 +25,7 @@ namespace MainStudyApp.View
     /// </summary>
     public sealed partial class NewLoginPage : Page
     {
+        Frame rootFrame = Window.Current.Content as Frame;
         AccountService accountService = new AccountService();
         public NewLoginPage()
         {
@@ -33,7 +34,7 @@ namespace MainStudyApp.View
 
         private void ButtonSubmit_Click(object sender, RoutedEventArgs e)
         {
-            Frame rootFrame = Window.Current.Content as Frame;
+            
             var checkAll = true;
 
             if (ValidateInput.IsStringInvalid(inputPassword.Password, 4))
@@ -71,6 +72,9 @@ namespace MainStudyApp.View
             }
         }
 
-       
+        private void registerNavigation_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            rootFrame.Navigate(typeof(View.RegisterPage));
+        }
     }
 }

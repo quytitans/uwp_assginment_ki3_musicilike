@@ -67,6 +67,8 @@ namespace MainStudyApp.Service
                 Credential returnCre = JsonConvert.DeserializeObject<Credential>(content);
                     Debug.WriteLine("Done !!!");
                     SaveToken(content);
+                    var CurrentUser = GetAccountInformation(returnCre.access_token);
+                    App.accountUser = CurrentUser;
                   return returnCre;
                 }
                  else {                    

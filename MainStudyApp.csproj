@@ -140,6 +140,9 @@
     <Compile Include="View\LastestSongsPage.xaml.cs">
       <DependentUpon>LastestSongsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\MySongPage.xaml.cs">
+      <DependentUpon>MySongPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\NewLoginPage.xaml.cs">
       <DependentUpon>NewLoginPage.xaml</DependentUpon>
     </Compile>
@@ -159,6 +162,7 @@
     <Content Include="Assets\IMGnvq\background 2.png" />
     <Content Include="Assets\IMGnvq\background-anime-nhan-vat-de-thuong.jpg" />
     <Content Include="Assets\IMGnvq\High_resolution_wallpaper_background_ID_77700181895.jpg" />
+    <Content Include="Assets\IMGnvq\LOGOMainHope.png" />
     <Content Include="Assets\IMGnvq\main_background1.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -187,6 +191,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\LastestSongsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MySongPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

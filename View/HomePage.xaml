@@ -10,11 +10,11 @@
 
     <NavigationView>
         <NavigationView.MenuItems>
+            <NavigationViewItem Icon="OtherUser" Content="" Tag="" x:Name="UserDisplay"/>
             <NavigationViewItem Icon="BackToWindow" Content="Logout" Tag="" Tapped="LogoutBtn_click"/>
-            <NavigationViewItem Icon="Add" Content="Add Song" Tag="" Tapped="btnAddSongClick"/>
-            <NavigationViewItem Icon="Add" Content="Add My Song" Tag="" />
+            <NavigationViewItem Icon="Add" Content="Add Song" Tag="" Tapped="btnAddSongClick"/>  
             <NavigationViewItem Icon="MusicInfo" Content="Lastest Songs" Tag="" Tapped="btnLastestSongsCLick"/>
-            <NavigationViewItem Icon="MusicInfo" Content="My Songs" Tag=""/>
+            <NavigationViewItem Icon="MusicInfo" Content="My Songs" Tag="" Tapped="MySongs_Tapped"/>
         </NavigationView.MenuItems>
         <Frame x:Name="contentFrame"/>
     </NavigationView>

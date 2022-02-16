@@ -222,5 +222,10 @@ namespace MainStudyApp.View
             msgGender.Text = "";
             msgBirthDay.Text = "";
         }
+
+        private void Goback_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            rootFrame.Navigate(typeof(View.NewLoginPage));
+        }
     }
 }

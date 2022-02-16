@@ -1,1 +1,1 @@
-F:\01. Universal App\uwp_assginment_ki3_musicilike\MainStudyApp.csproj;x86
+D:\06. Universal App\uwp_assginment_ki3_musicilike\MainStudyApp.csproj;x86

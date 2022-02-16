@@ -10,13 +10,13 @@
 
     <NavigationView>
         <NavigationView.MenuItems>
-            <NavigationViewItem x:ConnectionId='2' Icon="BackToWindow" Content="Logout" Tag=""                         />
-            <NavigationViewItem x:ConnectionId='3' Icon="Add" Content="Add Song" Tag=""                         />
-            <NavigationViewItem Icon="Add" Content="Add My Song" Tag="" />
-            <NavigationViewItem x:ConnectionId='4' Icon="MusicInfo" Content="Lastest Songs" Tag=""                              />
-            <NavigationViewItem Icon="MusicInfo" Content="My Songs" Tag=""/>
+            <NavigationViewItem x:ConnectionId='2' Icon="OtherUser" Content="" Tag="" x:Name="UserDisplay"/>
+            <NavigationViewItem x:ConnectionId='3' Icon="BackToWindow" Content="Logout" Tag=""                         />
+            <NavigationViewItem x:ConnectionId='4' Icon="Add" Content="Add Song" Tag=""                         />  
+            <NavigationViewItem x:ConnectionId='5' Icon="MusicInfo" Content="Lastest Songs" Tag=""                              />
+            <NavigationViewItem x:ConnectionId='6' Icon="MusicInfo" Content="My Songs" Tag=""                        />
         </NavigationView.MenuItems>
-        <Frame x:ConnectionId='5' x:Name="contentFrame"/>
+        <Frame x:ConnectionId='7' x:Name="contentFrame"/>
     </NavigationView>
 </Page>
 
