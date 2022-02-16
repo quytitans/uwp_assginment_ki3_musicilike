@@ -127,9 +127,6 @@
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LastestSongsPage.xbf">
       <PackagePath>View\LastestSongsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LoginPage.xbf">
-      <PackagePath>View\LoginPage.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\NewLoginPage.xbf">
       <PackagePath>View\NewLoginPage.xbf</PackagePath>
     </AppxPackagedFile>

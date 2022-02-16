@@ -30,13 +30,13 @@
     <AppXManifest Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-16T07:18:04.193</Modified>
+      <Modified>2022-02-16T08:32:50.861</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.exe">
       <PackagePath>entrypoint\MainStudyApp.exe</PackagePath>
-      <Modified>2022-02-16T07:18:02.913</Modified>
+      <Modified>2022-02-16T08:32:50.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\cloudinarydotnet\1.17.0\lib\netstandard2.0\CloudinaryDotNet.dll">
       <PackagePath>CloudinaryDotNet.dll</PackagePath>
@@ -146,43 +146,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.xr.xml">
       <PackagePath>MainStudyApp.xr.xml</PackagePath>
-      <Modified>2022-02-16T06:38:07.568</Modified>
+      <Modified>2022-02-16T08:32:50.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.737</Modified>
+      <Modified>2022-02-16T08:32:50.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.737</Modified>
+      <Modified>2022-02-16T08:32:50.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\AddSongPage.xbf">
       <PackagePath>View\AddSongPage.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.737</Modified>
+      <Modified>2022-02-16T08:32:50.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\HomePage.xbf">
       <PackagePath>View\HomePage.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.738</Modified>
+      <Modified>2022-02-16T08:32:50.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LastestSongsPage.xbf">
       <PackagePath>View\LastestSongsPage.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.738</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LoginPage.xbf">
-      <PackagePath>View\LoginPage.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.738</Modified>
+      <Modified>2022-02-16T08:32:50.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\NewLoginPage.xbf">
       <PackagePath>View\NewLoginPage.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.738</Modified>
+      <Modified>2022-02-16T08:32:50.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\RegisterPage.xbf">
       <PackagePath>View\RegisterPage.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.736</Modified>
+      <Modified>2022-02-16T08:32:50.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\WelcomePage.xbf">
       <PackagePath>View\WelcomePage.xbf</PackagePath>
-      <Modified>2022-02-16T07:18:02.738</Modified>
+      <Modified>2022-02-16T08:32:50.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -190,11 +186,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-16T07:18:03.339</Modified>
+      <Modified>2022-02-16T08:32:50.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\Core\MainStudyApp.exe">
       <PackagePath>MainStudyApp.exe</PackagePath>
-      <Modified>2022-02-16T07:18:04.186</Modified>
+      <Modified>2022-02-16T08:32:50.856</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

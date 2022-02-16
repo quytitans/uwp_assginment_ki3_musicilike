@@ -64,7 +64,6 @@ F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainPage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\AddSongPage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\HomePage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LastestSongsPage.xbf
-F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LoginPage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\RegisterPage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\WelcomePage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.xr.xml
@@ -89,8 +88,6 @@ F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\HomePage.g
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\HomePage.g.cs
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\LastestSongsPage.g.i.cs
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\LastestSongsPage.g.cs
-F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\LoginPage.g.i.cs
-F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\LoginPage.g.cs
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\RegisterPage.g.i.cs
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\RegisterPage.g.cs
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\WelcomePage.g.i.cs
@@ -101,7 +98,6 @@ F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\MainPage.xaml
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\AddSongPage.xaml
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\HomePage.xaml
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\LastestSongsPage.xaml
-F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\LoginPage.xaml
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\RegisterPage.xaml
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\WelcomePage.xaml
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\App.xbf
@@ -109,7 +105,6 @@ F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\MainPage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\AddSongPage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\HomePage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\LastestSongsPage.xbf
-F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\LoginPage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\RegisterPage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\View\WelcomePage.xbf
 F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\XamlSaveStateFile.xml

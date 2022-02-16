@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using MainStudyApp.Entity;
+using MainStudyApp.Service;
+using System.Diagnostics;
 
 namespace MainStudyApp
 {
@@ -22,7 +24,7 @@ namespace MainStudyApp
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
     sealed partial class App : Application
-    {
+    {        
         public static Account accountUser;
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -39,7 +41,7 @@ namespace MainStudyApp
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected async override void OnLaunched(LaunchActivatedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
 
@@ -65,10 +67,17 @@ namespace MainStudyApp
             {
                 if (rootFrame.Content == null)
                 {
-                    // When the navigation stack isn't restored navigate to the first page,
-                    // configuring the new page by passing required information as a navigation
-                    // parameter
-                    rootFrame.Navigate(typeof(View.NewLoginPage), e.Arguments);
+                    AccountService accountService = new AccountService();
+                    Account account = await accountService.GetLoggedAccount(); // Lấy tài khoản
+                    if (account == null)
+                    {
+                        rootFrame.Navigate(typeof(View.NewLoginPage), e.Arguments);
+                    }
+                    else
+                    {
+                        accountUser = account;
+                        rootFrame.Navigate(typeof(View.HomePage), e.Arguments);                   
+                    }
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();

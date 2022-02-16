@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MainStudyApp.Service;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,21 +23,13 @@ namespace MainStudyApp.View
     /// </summary>
     public sealed partial class HomePage : Page
     {
+        AccountService accountService = new AccountService();
+        Frame rootFrame = Window.Current.Content as Frame;
         public HomePage()
         {
             this.InitializeComponent();
             contentFrame.Navigate(typeof(View.WelcomePage));
-        }
-
-        private void btnRegister_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            contentFrame.Navigate(typeof(View.RegisterPage));
-        }
-
-        private void btnLogin_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            contentFrame.Navigate(typeof(View.LoginPage));
-        }
+        }        
 
         private void btnLastestSongsCLick(object sender, TappedRoutedEventArgs e)
         {
@@ -46,6 +39,12 @@ namespace MainStudyApp.View
         private void btnAddSongClick(object sender, TappedRoutedEventArgs e)
         {
             contentFrame.Navigate(typeof(View.AddSongPage));
+        }
+
+        private void LogoutBtn_click(object sender, TappedRoutedEventArgs e)
+        {
+            AccountService.LogoutAsync();
+            rootFrame.Navigate(typeof(View.NewLoginPage));
         }
     }
 }

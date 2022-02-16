@@ -9,7 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <NavigationView>
-        <NavigationView.MenuItems>            
+        <NavigationView.MenuItems>
+            <NavigationViewItem Icon="BackToWindow" Content="Logout" Tag="" Tapped="LogoutBtn_click"/>
             <NavigationViewItem Icon="Add" Content="Add Song" Tag="" Tapped="btnAddSongClick"/>
             <NavigationViewItem Icon="Add" Content="Add My Song" Tag="" />
             <NavigationViewItem Icon="MusicInfo" Content="Lastest Songs" Tag="" Tapped="btnLastestSongsCLick"/>

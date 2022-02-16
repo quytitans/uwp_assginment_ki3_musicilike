@@ -65,25 +65,22 @@ namespace MainStudyApp.Service
                 {
                 var content = await result.Content.ReadAsStringAsync();
                 Credential returnCre = JsonConvert.DeserializeObject<Credential>(content);
-               
-                Debug.WriteLine("Done !!!");
-                    //ContentDialog dialog = new ContentDialog();
-                    //dialog.Title = "Login";
-                    //dialog.Content = "Login success !!!";
-                    //dialog.CloseButtonText = "Close";
-                    //await dialog.ShowAsync();
-                    SaveToken(content);
-                    return returnCre;
+
+                    Debug.WriteLine("Done !!!");
+                  SaveToken(content);
+                  return returnCre;
                 }
-                 else {
-                    //ContentDialog dialog = new ContentDialog();
-                    //dialog.Title = "Login";
-                    //dialog.Content = "Login faile please try again";
-                    //dialog.CloseButtonText = "Close";
-                    //await dialog.ShowAsync();
+                 else {                    
                     return null;
                  }  
             }
+        }
+
+        public static async Task LogoutAsync()
+        {
+            StorageFolder storageFolder = ApplicationData.Current.LocalFolder;
+            StorageFile manifestFile = await storageFolder.GetFileAsync(tokenUserFile);
+            await manifestFile.DeleteAsync();
         }
 
         //save token
@@ -131,6 +128,17 @@ namespace MainStudyApp.Service
                     return null;
                 }
             }
+        }
+        public async Task<Account> GetLoggedAccount()
+        {
+            Account account;
+            Credential credential = await LoadToken();
+            if (credential == null)
+            {
+                return null;
+            }
+            account = await GetAccountInformation(credential.access_token);
+            return account;
         }
     }
 }
