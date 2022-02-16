@@ -65,9 +65,8 @@ namespace MainStudyApp.Service
                 {
                 var content = await result.Content.ReadAsStringAsync();
                 Credential returnCre = JsonConvert.DeserializeObject<Credential>(content);
-
                     Debug.WriteLine("Done !!!");
-                  SaveToken(content);
+                    SaveToken(content);
                   return returnCre;
                 }
                  else {                    

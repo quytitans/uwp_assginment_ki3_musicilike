@@ -27,6 +27,7 @@ namespace MainStudyApp.View
     /// </summary>
     public sealed partial class RegisterPage : Page
     {
+        Frame rootFrame = Window.Current.Content as Frame;
         public int genderSelected = -1;
         public string birthdaySelected = null;
         public bool checkAll = true;
@@ -164,7 +165,7 @@ namespace MainStudyApp.View
                 string stringTest = JsonConvert.SerializeObject(newAccount);
                 Debug.WriteLine(stringTest);
                 AccountService.saveAccount(newAccount);
-                ResetForm();
+                rootFrame.Navigate(typeof(View.NewLoginPage));
             }
         }
 
