@@ -29,7 +29,7 @@ namespace MainStudyApp.View
         {
             this.InitializeComponent();
             contentFrame.Navigate(typeof(View.LastestSongsPage));
-            //UserDisplay.Content = App.accountUser.firstName;
+            //UserDisplay.Content = App.accountUser.firstName;            
         }        
 
         private void btnLastestSongsCLick(object sender, TappedRoutedEventArgs e)

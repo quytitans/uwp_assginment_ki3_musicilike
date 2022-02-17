@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0HKSLrivV0BQP3Badw9Lwwnj3Ez32kyYSPkNgC5b2GM5QXVnmLZt3LKP0KT6S3RYu15lLleYRDC5Ji3lcD5ukw==",
+  "dgSpecHash": "169hUAunxM4PVUlxgZhve/BWFyREoO43FFVELdaDZT3Mcv43hDf4s2UOeub0vcjxStBqbj9+eiY6AvSq36AkjA==",
   "success": true,
-  "projectFilePath": "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
+  "projectFilePath": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quana\\.nuget\\packages\\cloudinarydotnet\\1.17.0\\cloudinarydotnet.1.17.0.nupkg.sha512",
     "C:\\Users\\quana\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -65,11 +65,9 @@ namespace MainStudyApp.Service
                 {
                 var content = await result.Content.ReadAsStringAsync();
                 Credential returnCre = JsonConvert.DeserializeObject<Credential>(content);
-                    Debug.WriteLine("Done !!!");
-                    SaveToken(content);
-                    var CurrentUser = GetAccountInformation(returnCre.access_token);
-                    App.accountUser = CurrentUser;
-                  return returnCre;
+                    Debug.WriteLine(content);
+                    SaveToken(content);            
+                    return returnCre;
                 }
                  else {                    
                     return null;

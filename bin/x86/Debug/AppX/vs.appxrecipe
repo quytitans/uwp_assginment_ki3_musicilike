@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-I78CPBJ</Machine>
+    <Machine>DESKTOP-CNFFO47</Machine>
     <WindowsUser>quana</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>77c91da9-f1c5-4481-bad7-749619ba03d8</PackageIdentityName>
     <PackageIdentityPublisher>CN=quana</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\06. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\01. Universal App\uwp_assginment_ki3_musicilike\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>1E09D14D438DC555D708F9BEE1C7203C82152CA31DE1F5922EA5BA72A7A60C89</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>77c91da9-f1c5-4481-bad7-749619ba03d8_1.0.0.0_x86__wg020pny04mkg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>77c91da9-f1c5-4481-bad7-749619ba03d8_wg020pny04mkg!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-16T20:30:23.383</Modified>
+      <Modified>2022-02-17T08:52:44.808</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.exe">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.exe">
       <PackagePath>entrypoint\MainStudyApp.exe</PackagePath>
-      <Modified>2022-02-16T20:30:22.905</Modified>
+      <Modified>2022-02-17T08:52:44.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\cloudinarydotnet\1.17.0\lib\netstandard2.0\CloudinaryDotNet.dll">
       <PackagePath>CloudinaryDotNet.dll</PackagePath>
@@ -90,115 +90,119 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T21:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\background 2.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\background 2.png">
       <PackagePath>Assets\IMGnvq\background 2.png</PackagePath>
-      <Modified>2022-02-16T15:34:41.366</Modified>
+      <Modified>2022-02-17T06:42:31.821</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\LOGOMainHope.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\LOGOMainHope.png">
       <PackagePath>Assets\IMGnvq\LOGOMainHope.png</PackagePath>
-      <Modified>2022-02-16T20:16:06.194</Modified>
+      <Modified>2022-02-17T06:42:31.820</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-02-16T15:34:41.371</Modified>
+      <Modified>2022-02-17T06:42:31.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-16T15:34:41.371</Modified>
+      <Modified>2022-02-17T06:42:31.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-16T15:34:41.372</Modified>
+      <Modified>2022-02-17T06:42:31.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-16T15:34:41.372</Modified>
+      <Modified>2022-02-17T06:42:31.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-16T15:34:41.373</Modified>
+      <Modified>2022-02-17T06:42:31.828</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-16T15:34:41.374</Modified>
+      <Modified>2022-02-17T06:42:31.828</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-16T15:34:41.374</Modified>
+      <Modified>2022-02-17T06:42:31.828</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\background-anime-nhan-vat-de-thuong.jpg">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\background-anime-nhan-vat-de-thuong.jpg">
       <PackagePath>Assets\IMGnvq\background-anime-nhan-vat-de-thuong.jpg</PackagePath>
-      <Modified>2022-02-16T15:34:41.369</Modified>
+      <Modified>2022-02-17T06:42:31.824</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\High_resolution_wallpaper_background_ID_77700181895.jpg">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\High_resolution_wallpaper_background_ID_77700181895.jpg">
       <PackagePath>Assets\IMGnvq\High_resolution_wallpaper_background_ID_77700181895.jpg</PackagePath>
-      <Modified>2022-02-16T15:34:41.365</Modified>
+      <Modified>2022-02-17T06:42:31.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\main_background1.jpg">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\main_background1.jpg">
       <PackagePath>Assets\IMGnvq\main_background1.jpg</PackagePath>
-      <Modified>2022-02-16T15:34:41.370</Modified>
+      <Modified>2022-02-17T06:42:31.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Assets\IMGnvq\Gif 01.gif">
+      <PackagePath>Assets\IMGnvq\Gif 01.gif</PackagePath>
+      <Modified>2022-02-17T06:47:18.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-02-16T15:34:41.380</Modified>
+      <Modified>2022-02-17T06:42:31.832</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.xr.xml">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainStudyApp.xr.xml">
       <PackagePath>MainStudyApp.xr.xml</PackagePath>
-      <Modified>2022-02-16T20:22:02.643</Modified>
+      <Modified>2022-02-17T08:48:09.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.791</Modified>
+      <Modified>2022-02-17T08:52:44.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.791</Modified>
+      <Modified>2022-02-17T08:52:44.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\AddSongPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\AddSongPage.xbf">
       <PackagePath>View\AddSongPage.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.792</Modified>
+      <Modified>2022-02-17T08:52:44.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\HomePage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\HomePage.xbf">
       <PackagePath>View\HomePage.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.792</Modified>
+      <Modified>2022-02-17T08:52:44.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LastestSongsPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\LastestSongsPage.xbf">
       <PackagePath>View\LastestSongsPage.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.792</Modified>
+      <Modified>2022-02-17T08:52:44.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\MySongPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\MySongPage.xbf">
       <PackagePath>View\MySongPage.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.792</Modified>
+      <Modified>2022-02-17T08:52:44.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\NewLoginPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\NewLoginPage.xbf">
       <PackagePath>View\NewLoginPage.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.792</Modified>
+      <Modified>2022-02-17T08:52:44.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\RegisterPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\RegisterPage.xbf">
       <PackagePath>View\RegisterPage.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.791</Modified>
+      <Modified>2022-02-17T08:52:44.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\WelcomePage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\View\WelcomePage.xbf">
       <PackagePath>View\WelcomePage.xbf</PackagePath>
-      <Modified>2022-02-16T20:30:22.792</Modified>
+      <Modified>2022-02-17T08:52:44.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-01T19:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-16T20:30:23.020</Modified>
+      <Modified>2022-02-17T06:48:36.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\Core\MainStudyApp.exe">
+    <AppxPackagedFile Include="F:\01. Universal App\uwp_assginment_ki3_musicilike\bin\x86\Debug\Core\MainStudyApp.exe">
       <PackagePath>MainStudyApp.exe</PackagePath>
-      <Modified>2022-02-16T20:30:23.379</Modified>
+      <Modified>2022-02-17T08:52:44.804</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

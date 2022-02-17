@@ -23,9 +23,9 @@ namespace MainStudyApp.Entity
         public string introduction { get; set; }
         public int status { get; set; }
 
-        public static implicit operator Account(Task<Account> v)
-        {
-            throw new NotImplementedException();
-        }
+        //public static implicit operator Account(Task<Account> v)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

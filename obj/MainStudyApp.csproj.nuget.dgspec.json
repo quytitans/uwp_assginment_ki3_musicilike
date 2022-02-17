@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj": {}
+    "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj": {}
   },
   "projects": {
-    "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj": {
+    "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
+        "projectUniqueName": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
         "projectName": "MainStudyApp",
-        "projectPath": "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
+        "projectPath": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\MainStudyApp.csproj",
         "packagesPath": "C:\\Users\\quana\\.nuget\\packages\\",
-        "outputPath": "D:\\06. Universal App\\uwp_assginment_ki3_musicilike\\obj\\",
+        "outputPath": "F:\\01. Universal App\\uwp_assginment_ki3_musicilike\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
